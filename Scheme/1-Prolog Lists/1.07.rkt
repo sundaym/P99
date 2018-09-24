@@ -1,5 +1,3 @@
-#lang sicp
-
 ;;;; P07 (**)Flatten a nested list structure.
 (define (flatten lst)
     (cond ((null? lst) lst)
